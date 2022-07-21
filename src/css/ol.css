@@ -12,7 +12,7 @@
 }
 
 .ol-scale-line {
-  background: #4dc0dd;
+  background: #3f4344;
   border-radius: 4px;
   top: 3.5em;
   right: 8px;
@@ -166,10 +166,10 @@
   text-decoration: none;
   font-size: inherit;
   text-align: center;
-  height: 1.575em;
-  width: 2.075em;
+  height: 1.4em;
+  width: 1.4em;
   line-height: 0.4em;
-  background-color: #4dc0dd;
+  background-color: #3f4344;
   border: none;
   border-radius: 2px;
 }
@@ -182,7 +182,7 @@
 .ol-layers-control {
   top: 2em;
   left: 0.5em;
-  background-color: #4dc0dd;
+  background-color: #3f4344;
   /* width: 250px; */
   color: #fff;
 }
@@ -224,7 +224,7 @@
 .ol-control button:focus,
 .ol-control button:hover {
   text-decoration: none;
-  background-color: rgba(66, 66, 66, 0.7);
+  background-color: #2b6a8fb3;
 }
 
 .ol-zoom .ol-zoom-in {
