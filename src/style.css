@@ -13,9 +13,10 @@ code {
 }
 
 .map_container {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   display: flex;
+  z-index: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;

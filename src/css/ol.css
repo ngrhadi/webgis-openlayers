@@ -132,6 +132,7 @@
   top: 2em;
   right: 0.5em;
   position: absolute;
+  z-index: -1;
 }
 
 .ol-rotate {
