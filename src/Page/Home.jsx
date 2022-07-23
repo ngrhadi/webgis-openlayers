@@ -13,6 +13,7 @@ import {
 import dataPoint from "../file/pim.json";
 import { Feature } from "ol";
 import { Point } from "ol/geom";
+import Courosel from "./Courosel";
 
 const centerlonglat = fromLonLat([108.4, -6.918]);
 //-6.918500507980662, 108.40128879706633
@@ -83,6 +84,7 @@ export default function Homes() {
 					})}
 				</RLayerVector>
 			</RMap>
+			<Courosel />
 		</>
 	);
 }

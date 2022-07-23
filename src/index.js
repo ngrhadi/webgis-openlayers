@@ -4,11 +4,16 @@ import "./style.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./css/ol.css";
+import { StyledEngineProvider, CssVarsProvider } from "@mui/joy/styles";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<App />
+		<StyledEngineProvider injectFirst>
+			<CssVarsProvider>
+				<App />
+			</CssVarsProvider>
+		</StyledEngineProvider>
 	</React.StrictMode>,
 );
 
