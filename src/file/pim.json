@@ -4,7 +4,14 @@
 			"type": "Feature",
 			"properties": { "id": 1, "date": "1995-12-11", "name_loc": "OE OE OE" },
 			"bbox": [108.080959, -6.325041, 108.080959, -6.325041],
-			"geometry": { "type": "Point", "coordinates": [108.080959, -6.325041] }
+			"geometry": { "type": "Point", "coordinates": [108.080959, -6.325041] },
+			"blog": [
+				{
+					"src": "./img/child.jpg",
+					"title": "Night view",
+					"description": "4.21M views"
+				}
+			]
 		},
 		{
 			"type": "Feature",
@@ -14,19 +21,40 @@
 				"name_loc": "OE OE OE (2)"
 			},
 			"bbox": [108.480692, -6.747386, 108.480692, -6.747386],
-			"geometry": { "type": "Point", "coordinates": [108.480692, -6.747386] }
+			"geometry": { "type": "Point", "coordinates": [108.480692, -6.747386] },
+			"blog": [
+				{
+					"src": "https://images.unsplash.com/photo-1502657877623-f66bf489d236",
+					"title": "Night view",
+					"description": "4.21M views"
+				}
+			]
 		},
 		{
 			"type": "Feature",
 			"properties": { "id": 3, "date": "2015-09-18", "name_loc": "MBC" },
 			"bbox": [110.465051, -7.776037, 110.465051, -7.776037],
-			"geometry": { "type": "Point", "coordinates": [110.465051, -7.776037] }
+			"geometry": { "type": "Point", "coordinates": [110.465051, -7.776037] },
+			"blog": [
+				{
+					"src": "https://images.unsplash.com/photo-1502657877623-f66bf489d236",
+					"title": "Night view",
+					"description": "4.21M views"
+				}
+			]
 		},
 		{
 			"type": "Feature",
 			"properties": { "id": 5, "date": "2019-02-13", "name_loc": "EVOLUTION" },
 			"bbox": [106.740189, -6.338732, 106.740189, -6.338732],
-			"geometry": { "type": "Point", "coordinates": [106.740189, -6.338732] }
+			"geometry": { "type": "Point", "coordinates": [106.740189, -6.338732] },
+			"blog": [
+				{
+					"src": "https://images.unsplash.com/photo-1502657877623-f66bf489d236",
+					"title": "Night view",
+					"description": "4.21M views"
+				}
+			]
 		},
 		{
 			"type": "Feature",
@@ -36,7 +64,14 @@
 				"name_loc": "HISTORY NOT LIE"
 			},
 			"bbox": [97.912004, 2.896805, 97.912004, 2.896805],
-			"geometry": { "type": "Point", "coordinates": [97.912004, 2.896805] }
+			"geometry": { "type": "Point", "coordinates": [97.912004, 2.896805] },
+			"blog": [
+				{
+					"src": "https://images.unsplash.com/photo-1502657877623-f66bf489d236",
+					"title": "Night view",
+					"description": "4.21M views"
+				}
+			]
 		},
 		{
 			"type": "Feature",
@@ -46,7 +81,14 @@
 				"name_loc": "COLD PLACE AND MESOZOIC ERA"
 			},
 			"bbox": [120.133011, -1.163162, 120.133011, -1.163162],
-			"geometry": { "type": "Point", "coordinates": [120.133011, -1.163162] }
+			"geometry": { "type": "Point", "coordinates": [120.133011, -1.163162] },
+			"blog": [
+				{
+					"src": "https://images.unsplash.com/photo-1502657877623-f66bf489d236",
+					"title": "Night view",
+					"description": "4.21M views"
+				}
+			]
 		},
 		{
 			"type": "Feature",
@@ -56,7 +98,14 @@
 				"name_loc": "CITY OF PANCASILA"
 			},
 			"bbox": [121.656418, -8.839727, 121.656418, -8.839727],
-			"geometry": { "type": "Point", "coordinates": [121.656418, -8.839727] }
+			"geometry": { "type": "Point", "coordinates": [121.656418, -8.839727] },
+			"blog": [
+				{
+					"src": "https://images.unsplash.com/photo-1502657877623-f66bf489d236",
+					"title": "Night view",
+					"description": "4.21M views"
+				}
+			]
 		},
 		{
 			"type": "Feature",
@@ -66,7 +115,14 @@
 				"name_loc": "ASTRONOMIA TRADITIONAL"
 			},
 			"bbox": [121.820152, -8.766963, 121.820152, -8.766963],
-			"geometry": { "type": "Point", "coordinates": [121.820152, -8.766963] }
+			"geometry": { "type": "Point", "coordinates": [121.820152, -8.766963] },
+			"blog": [
+				{
+					"src": "https://images.unsplash.com/photo-1502657877623-f66bf489d236",
+					"title": "Night view",
+					"description": "4.21M views"
+				}
+			]
 		},
 		{
 			"type": "Feature",
@@ -76,7 +132,14 @@
 				"name_loc": "BARIER NATIONALISM AND DAYAK"
 			},
 			"bbox": [115.696393, 3.906583, 115.696393, 3.906583],
-			"geometry": { "type": "Point", "coordinates": [115.696393, 3.906583] }
+			"geometry": { "type": "Point", "coordinates": [115.696393, 3.906583] },
+			"blog": [
+				{
+					"src": "https://images.unsplash.com/photo-1502657877623-f66bf489d236",
+					"title": "Night view",
+					"description": "4.21M views"
+				}
+			]
 		},
 		{
 			"type": "Feature",
@@ -86,7 +149,14 @@
 				"name_loc": "ANGLE PLACE"
 			},
 			"bbox": [103.712712, -1.089762, 103.712712, -1.089762],
-			"geometry": { "type": "Point", "coordinates": [103.712712, -1.089762] }
+			"geometry": { "type": "Point", "coordinates": [103.712712, -1.089762] },
+			"blog": [
+				{
+					"src": "https://images.unsplash.com/photo-1502657877623-f66bf489d236",
+					"title": "Night view",
+					"description": "4.21M views"
+				}
+			]
 		},
 		{
 			"type": "Feature",
@@ -96,7 +166,14 @@
 				"name_loc": "ALONE ENGINEER"
 			},
 			"bbox": [101.576007, 3.150958, 101.576007, 3.150958],
-			"geometry": { "type": "Point", "coordinates": [101.576007, 3.150958] }
+			"geometry": { "type": "Point", "coordinates": [101.576007, 3.150958] },
+			"blog": [
+				{
+					"src": "https://images.unsplash.com/photo-1502657877623-f66bf489d236",
+					"title": "Night view",
+					"description": "4.21M views"
+				}
+			]
 		}
 	]
 }

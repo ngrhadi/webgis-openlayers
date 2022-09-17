@@ -12,7 +12,7 @@
 }
 
 .ol-scale-line {
-  background: #3f4344;
+  background: #087A73;
   border-radius: 4px;
   top: 3.5em;
   right: 8px;
@@ -129,10 +129,10 @@
 } */
 
 .ol-zoom {
-  top: 2em;
+  top: -6em;
   right: 0.5em;
-  position: absolute;
-  z-index: -1;
+  position: fixed;
+  z-index: -20;
 }
 
 .ol-rotate {
@@ -149,8 +149,8 @@
 
 .ol-zoom-extent {
   /* top: 4.643em; */
-  top: 0.5em;
-  left: 0.5em;
+  /* top: 0.5em; */
+  /* left: 0.5em; */
 }
 
 .ol-full-screen {
@@ -170,7 +170,7 @@
   height: 1.4em;
   width: 1.4em;
   line-height: 0.4em;
-  background-color: #3f4344;
+  background-color: #087A73;
   border: none;
   border-radius: 2px;
 }
@@ -181,9 +181,9 @@
 } */
 
 .ol-layers-control {
-  top: 2em;
-  left: 0.5em;
-  background-color: #3f4344;
+  top: 3em;
+  right: 0.5em;
+  background-color: #087A73;
   /* width: 250px; */
   color: #fff;
 }
@@ -228,7 +228,7 @@
   background-color: #2b6a8fb3;
 }
 
-.ol-zoom .ol-zoom-in {
+/* .ol-zoom .ol-zoom-in {
   border-radius: 2px 2px 0 0;
   width: 2em;
 }
@@ -236,7 +236,7 @@
 .ol-zoom .ol-zoom-out {
   border-radius: 0 0 2px 2px;
   width: 2em;
-}
+} */
 
 .ol-attribution {
   text-align: right;

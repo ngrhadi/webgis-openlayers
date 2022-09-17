@@ -13,11 +13,53 @@ code {
 }
 
 .map_container {
-  height: 90vh;
+  position: absolute;
+  height: 100vh;
   width: 100vw;
   display: flex;
   z-index: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+  border: 10px solid transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2087e0;
+}
+
+.text-vertical {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: right;
+}
+
+
+@media screen and (max-width: 768px) {
+  .map_container {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .img-fluid {
+    min-width: 10;
+  }
 }

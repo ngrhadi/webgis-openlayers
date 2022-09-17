@@ -13,6 +13,7 @@ import {
 import dataPoint from "../file/pim.json";
 import { Feature } from "ol";
 import { Point } from "ol/geom";
+import Courosel from "./Courosel";
 
 const centerlonglat = fromLonLat([108.4, -6.918]);
 //-6.918500507980662, 108.40128879706633
@@ -38,6 +39,11 @@ export default function Homes() {
 					console.log(e);
 				}}>
 				<RControl.RLayers>
+					<RLayerTile
+						properties={{ label: "Carto Dark" }}
+						url="http://{a-d}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
+						// url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}"
+					/>
 					<RLayerTile
 						properties={{ label: "Esri Street" }}
 						url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}"
@@ -83,6 +89,7 @@ export default function Homes() {
 					})}
 				</RLayerVector>
 			</RMap>
+			<Courosel />
 		</>
 	);
 }
