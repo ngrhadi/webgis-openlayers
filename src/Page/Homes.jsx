@@ -40,6 +40,11 @@ export default function Homes() {
 				}}>
 				<RControl.RLayers>
 					<RLayerTile
+						properties={{ label: "Carto Dark" }}
+						url="http://{a-d}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
+						// url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}"
+					/>
+					<RLayerTile
 						properties={{ label: "Esri Street" }}
 						url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}"
 					/>

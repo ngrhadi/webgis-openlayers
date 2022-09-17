@@ -1,4 +1,4 @@
-import Homes from "./Page/Home";
+import Homes from "./Page/Homes";
 import Box from "@mui/joy/Box";
 import List from "@mui/joy/List";
 import ListItem from "@mui/joy/ListItem";

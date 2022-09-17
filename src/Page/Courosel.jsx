@@ -3,6 +3,7 @@ import AspectRatio from "@mui/joy/AspectRatio";
 import Box from "@mui/joy/Box";
 import Typography from "@mui/joy/Typography";
 import Card from "@mui/joy/Card";
+import dataPoint from "../file/pim.json";
 
 const data = [
 	{
@@ -83,6 +84,7 @@ const data = [
 ];
 
 export default function Courosel() {
+	console.log(dataPoint.features.map((item) => item.properties.date));
 	return (
 		<Box
 			sx={{
@@ -100,10 +102,10 @@ export default function Courosel() {
 				},
 				"::-webkit-scrollbar": { display: "none" },
 			}}>
-			{data.map((item) => (
+			{dataPoint.features.map((item) => (
 				<Card
 					row
-					key={item.title}
+					key={item.blog.title}
 					variant="outlined"
 					sx={{
 						gap: 2,
@@ -115,14 +117,14 @@ export default function Courosel() {
 						className="img-fluid"
 						sx={{ minWidth: 50, borderRadius: "sm", overflow: "auto" }}>
 						<img
-							src={`${item.src}?h=120&fit=crop&auto=format`}
-							srcSet={`${item.src}?h=120&fit=crop&auto=format&dpr=2 2x`}
-							alt={item.title}
+							src={`${item.blog.src}?h=120&fit=crop&auto=format`}
+							srcSet={`${item.blog.src}?h=120&fit=crop&auto=format&dpr=2 2x`}
+							alt={item.blog.title}
 						/>
 					</AspectRatio>
 					<Box sx={{ whiteSpace: "nowrap" }}>
-						<Typography fontWeight="md">{item.title}</Typography>
-						<Typography level="body2">{item.description}</Typography>
+						<Typography fontWeight="md">{item.blog.title}</Typography>
+						<Typography level="body2">{item.blog.description}</Typography>
 					</Box>
 				</Card>
 			))}
