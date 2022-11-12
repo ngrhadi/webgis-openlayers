@@ -15,9 +15,9 @@ import { Feature } from "ol";
 import { Point } from "ol/geom";
 import Courosel from "./Courosel";
 
-const centerlonglat = fromLonLat([108.4, -6.918]);
 //-6.918500507980662, 108.40128879706633
 export default function Homes() {
+	const [centerlonglat, setCenterLongLat] = React.useState(fromLonLat([108.4, -6.918]));
 	const mapRef = React.useRef();
 	const layerRef = React.useRef();
 
@@ -27,6 +27,8 @@ export default function Homes() {
 		setCardPoint(true);
 	};
 
+	console.log(dataPoint, "data")
+
 	return (
 		<>
 			<RMap
@@ -34,15 +36,12 @@ export default function Homes() {
 				initial={{ center: centerlonglat, zoom: 8, zoomControl: false }}
 				ref={mapRef}
 				maxZoom={8}
-				minZoom={8}
-				onPointerDrag={(e) => {
-					console.log(e);
-				}}>
+				minZoom={2}>
 				<RControl.RLayers>
 					<RLayerTile
 						properties={{ label: "Carto Dark" }}
 						url="http://{a-d}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
-						// url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}"
+					// url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}"
 					/>
 					<RLayerTile
 						properties={{ label: "Esri Street" }}
@@ -82,8 +81,8 @@ export default function Homes() {
 								}
 								onClick={(e) => {
 									e.stopPropagation();
-									console.log(e.map.getView().getCenter());
-									console.log(layerRef.current);
+									let newCenter = e.map.getView().getCenter();
+									setCenterLongLat(fromLonLat(newCenter))
 								}}></RFeature>
 						);
 					})}
